@@ -74,10 +74,10 @@ const Achievements = () => {
           <div className="card shadow-sm experCard"onClick={handleShowModal3}>
             <div className="card-body">
             <div className="d-flex flex-row">
-            <img width="48" src="https://media.licdn.com/dms/image/v2/D4D0BAQEQIEKSYW75kg/company-logo_100_100/company-logo_100_100/0/1692192268681?e=1744848000&amp;v=beta&amp;t=8jPVmUlGbsaqwVJHe87InyHsqG2Guv83z6RN3kBABb4" loading="lazy" height="48" alt="Cutshort logo" id="ember403" class="ivm-view-attr__img--centered EntityPhoto-square-3   evi-image lazy-image ember-view"/>
-                <h5 className="card-title mt-2 ml-4">React JS - Cutshort</h5>
+            <img width="48" src="https://media.licdn.com/dms/image/v2/D560BAQENKiYx2_hXCw/company-logo_100_100/company-logo_100_100/0/1732620355624/great_learning_logo?e=1749081600&v=beta&t=I5JW2YtJZdtZgP4iUi9hmkhlYguyTXCPCxROWozz2Ho" loading="lazy" height="48" alt="Great Learning logo" id="ember403" class="ivm-view-attr__img--centered EntityPhoto-square-3   evi-image lazy-image ember-view"/>
+                <h5 className="card-title mt-2 ml-4">JAVA - Great Learning</h5>
               </div>
-              <p className="card-text mb-3">Skills: REACT.JS, SASS</p>
+              <p className="card-text mb-3">Skills: CORE JAVA</p>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@ const Achievements = () => {
       </Modal>
        <Modal show={showModal3} onHide={handleCloseModal3} centered>
         <Modal.Header closeButton>
-        <Modal.Title>JAVA - Cutshort Certifications</Modal.Title>
+        <Modal.Title>JAVA - Great Learning Certifications</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <img
