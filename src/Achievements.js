@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Achievements.css";
 import Heading from "./Heading";
 import { Button, Modal } from "react-bootstrap";
-// import img3 from './Images/image.png'
+import img3 from './Images/java.jpg'
 import img1 from './Images/Geek.jpg'
 import img2 from './Images/Tap.jpg'
 
@@ -70,7 +70,7 @@ const Achievements = () => {
             </div>
           </div>
         </div>
-        {/* <div className="col-md-4">
+        <div className="col-md-4">
           <div className="card shadow-sm experCard"onClick={handleShowModal3}>
             <div className="card-body">
             <div className="d-flex flex-row">
@@ -80,7 +80,7 @@ const Achievements = () => {
               <p className="card-text mb-3">Skills: REACT.JS, SASS</p>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
 
       <h2 className="text-center my-5">GitHub Achievements</h2>
@@ -133,18 +133,18 @@ const Achievements = () => {
         />
         </Modal.Body>
       </Modal>
-      {/* <Modal show={showModal3} onHide={handleCloseModal3} centered>
+       <Modal show={showModal3} onHide={handleCloseModal3} centered>
         <Modal.Header closeButton>
-        <Modal.Title>React JS - Cutshort Certifications</Modal.Title>
+        <Modal.Title>JAVA - Cutshort Certifications</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <img
-          // src={img3}
+          src={img3}
           alt="Certifications Views"
           className="img-fluid"
         />
         </Modal.Body>
-      </Modal> */}
+      </Modal> 
     </div>
   );
 };
